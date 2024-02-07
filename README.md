@@ -30,27 +30,27 @@ Cluster API can be extended to support any infrastructure (AWS, Azure, vSphere, 
 
 <!-- ANCHOR: Community -->
 
-## 🤗 Community, discussion, contribution, and support
+## 🤗 Comunidade, discussões, contribuição, e suporte
 
-Cluster API is developed in the open, and is constantly being improved by our users, contributors, and maintainers. It is because of you that we are able to automate cluster lifecycle management for the community. Join us!
+O projeto Cluster API é desenvolvido de forma aberta está constantemente sendo aprimorada por nossos usuários, colaboradores e mantenedores. É por sua causa que podemos automatizar o gerenciamento do ciclo de vida do cluster para a comunidade. Junte-se a nós!
 
-If you have questions or want to get the latest project news, you can connect with us in the following ways:
+Se você tiver dúvidas ou quiser obter as últimas notícias do projeto, você pode se conectar com a gente das seguintes maneiras:
 
-- Chat with us on the Kubernetes [Slack](http://slack.k8s.io/) in the [#cluster-api][#cluster-api slack] channel
-- Subscribe to the [SIG Cluster Lifecycle](https://groups.google.com/forum/#!forum/kubernetes-sig-cluster-lifecycle) Google Group for access to documents and calendars
-- Join our Cluster API working group sessions where we share the latest project news, demos, answer questions, and triage issues
-    - Weekly on Wednesdays @ 10:00 PT on [Zoom][zoomMeeting]
-    - Previous meetings: \[ [notes][notes] | [recordings][recordings] \]
+- Converse com a gente no Kubernetes [Slack](http://slack.k8s.io/) no canal [#cluster-api][#cluster-api slack]
+- Inscreva-se no [SIG Cluster Lifecycle](https://groups.google.com/forum/#!forum/kubernetes-sig-cluster-lifecycle) do Google Group para ter acesso a documentos e agendas
+- Participe de nossas sessões do grupo de trabalho, onde compartilhamos as últimas notícias do projeto, demonstrações, perguntas e triagem de issues
+    - Semanalmente às quartas-feiras @ 10:00 PT em [Zoom][zoomMeeting]
+    - Reuniões anteriores: [ [notas][notas] | [gravações] [gravações] ]
 
-Pull Requests and feedback on issues are very welcome!
-See the [issue tracker] if you're unsure where to start, especially the [Good first issue] and [Help wanted] tags, and
-also feel free to reach out to discuss.
+Pull Requests e feedback sobre issues são muito bem-vindos!
+Consulte o [tracker de issue] se não tiver certeza por onde começar, especialmente as tags [Good first issue] e [Help wanted] e
+também sinta-se livre para entrar em contato para discutir.
 
-See also our [contributor guide](CONTRIBUTING.md) and the Kubernetes [community page] for more details on how to get involved.
+Consulte também nosso [guia do colaborador](CONTRIBUTING.md) e a [página da comunidade] do Kubernetes para obter mais detalhes sobre como se envolver.
 
-### Code of conduct
+### Código de conduta
 
-Participation in the Kubernetes community is governed by the [Kubernetes Code of Conduct](code-of-conduct.md).
+A participação na comunidade Kubernetes é regida pelo [Código de Conduta do Kubernetes](code-of-conduct.md).
 
 [community page]: https://kubernetes.io/community
 [notes]: https://docs.google.com/document/d/1ushaVqAKYnZ2VN_aa3GyKlS4kEd6bSug13xaXOakAQI
