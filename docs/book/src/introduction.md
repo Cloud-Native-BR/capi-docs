@@ -1,9 +1,8 @@
 # Kubernetes Cluster API<div style="float: right; position: relative; display: inline;"><img src="images/introduction.svg" width="160px" /></div>
 
-
 O Cluster API é um subprojeto do Kubernetes focado em fornecer APIs declarativas e ferramentas para simplificar o provisionamento, atualização e operação de vários clusters Kubernetes.
 
-Iniciado pelo Grupo de Interesse Especial do Kubernetes (SIG) [Cluster Lifecycle](https://github.com/kubernetes/community/tree/master/sig-cluster-lifecycle#readme), o projeto Cluster API usa APIs no estilo Kubernetes e padrões para automatizar o gerenciamento do ciclo de vida do cluster para operadores de plataforma. A infraestrutura de suporte, como máquinas virtuais, redes, balanceadores de carga e VPCs, bem como a configuração do cluster Kubernetes, são todas definidas da mesma forma que os desenvolvedores de aplicações trabalham, implantando e gerenciando suas cargas de trabalho. Isso permite implantações de cluster consistentes e repetíveis em uma ampla variedade de ambientes de infraestrutura.
+Iniciado pelo Grupo de Interesse Especial do Kubernetes (SIG) [Cluster Lifecycle](https://github.com/kubernetes/community/tree/master/sig-cluster-lifecycle#readme), o projeto Cluster API usa APIs e padrões no estilo do Kubernetes para automatizar o gerenciamento do ciclo de vida do cluster para operadores de plataforma. A infraestrutura de suporte, como máquinas virtuais, redes, balanceadores de carga e VPCs, bem como a configuração do cluster Kubernetes, são todas definidas da mesma forma que os desenvolvedores de aplicações trabalham, implantando e gerenciando suas cargas de trabalho. Isso permite implantações de cluster consistentes e repetíveis em uma ampla variedade de ambientes de infraestrutura.
 
 ## ⚠️ Breaking Changes ⚠️
 
