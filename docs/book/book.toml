@@ -1,13 +1,13 @@
 [book]
 authors = ["The Cluster API Maintainers"]
-language = "en"
+language = "pt-br"
 multilingual = false
 src = "src"
-title = "The Cluster API Book"
+title = "O Livro do Projeto Cluster API"
 
 [output.html]
 curly-quotes = true
-git-repository-url = "https://sigs.k8s.io/cluster-api"
+git-repository-url = "https://github.com/Cloud-Native-BR/capi-docs"
 additional-css = ["theme/css/custom.css"]
 
 [output.html.redirect]
