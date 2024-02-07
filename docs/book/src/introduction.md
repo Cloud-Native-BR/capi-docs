@@ -8,40 +8,38 @@ Iniciado pelo Grupo de Interesse Especial do Kubernetes (SIG) [Cluster Lifecycle
 ## ⚠️ Breaking Changes ⚠️
 
 <aside class="note">
-<h1>Legacy k8s.gcr.io container image registry will be redirected to registry.k8s.io</h1>
+<h1>O registry de imagens legado k8s.gcr.io vai ser redirecionado para registry.k8s.io</h1>
 
-k8s.gcr.io image registry will be redirected to registry.k8s.io on Monday March 20th.
-All images available in k8s.gcr.io are available at registry.k8s.io.
-Please read the [announcement](https://kubernetes.io/blog/2023/03/10/image-registry-redirect/) for more details.
+O registry de imagens k8s.gcr.io vai ser redirecionado para registry.k8s.io no dia 20 de Março.
+Todas as imagens disponíveis em k8s.gcr.io estão disponíveis no registry.k8s.io.
+Por favor, leia o [anúncio](https://kubernetes.io/blog/2023/03/10/image-registry-redirect/) completo para mais detalhes.
 
-Also, this [guide](https://github.com/kubernetes/registry.k8s.io/tree/main/docs/mirroring) provide instructions about how to identify images to mirror and how to use mirrored images.
-
+Além disso, esse [guia](https://github.com/kubernetes/registry.k8s.io/tree/main/docs/mirroring) contém mais instruções sobre como identificar imagens para espelhar (**mirror**) e como usar imagens espelhadas.
 </aside>
 
 <aside class="note">
-<h1>Deprecated API removal</h1>
+<h1>Remoção da API obsoleta</h1>
 
-- API version v1alpha3 support is no longer served in release v1.5
-- API version v1alpha4 support will be removed in the upcoming release of v1.6
+- A versão v1alpha3 da API não é mais suportada na release v1.5
+- O suporte para a versão v1alpha4 será removido na próxima versão 1.6
 
-Review the [support-and-guarantees](./CONTRIBUTING.md#support-and-guarantees) section of the
-contributing guide for more details.
+Revise a seção de [suporte](./CONTRIBUTING.md#support-and-guarantees) no guia de contribuição para mais detalhes.
 
 </aside>
 
-## Getting started
+## Começando
 
-* [Quick Start](./user/quick-start.md)
-* [Concepts](./user/concepts.md)
-* [Developer guide](./developer/guide.md)
-* [Contributing](./CONTRIBUTING.md)
-* [Videos explaining Cluster API architecture](./developer/guide.md#videos-explaining-capi-architecture-and-code-walkthroughs)
+* [Início Rápido](./user/quick-start.md)
+* [Conceitos](./user/concepts.md)
+* [Guia de desenvolvimento](./developer/guide.md)
+* [Contribuindo](./CONTRIBUTING.md)
+* [Vídeos explicando a arquitetura do Cluster API](./developer/guide.md#videos-explaining-capi-architecture-and-code-walkthroughs)
 
 <aside class="note">
 
-<h1>ClusterAPI documentation versions</h1>
+<h1>Versões das documentações do Cluster API</h1>
 
-This book documents ClusterAPI v1.6. For other Cluster API versions please see the corresponding documentation:
+Este livro documenta a versão 1.6. do Cluster API. Para outras versões veja as documentações relacionadas:
 * [main.cluster-api.sigs.k8s.io](https://main.cluster-api.sigs.k8s.io)
 * [release-1-5.cluster-api.sigs.k8s.io](https://release-1-5.cluster-api.sigs.k8s.io)
 * [release-1-4.cluster-api.sigs.k8s.io](https://release-1-4.cluster-api.sigs.k8s.io)
