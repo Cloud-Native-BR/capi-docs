@@ -36,8 +36,8 @@ O projeto Cluster API é desenvolvido de forma aberta está constantemente sendo
 
 Se você tiver dúvidas ou quiser obter as últimas notícias do projeto, você pode se conectar com a gente das seguintes maneiras:
 
-- Converse com a gente no Kubernetes [Slack](http://slack.k8s.io/) no canal [#cluster-api][#cluster-api slack]
-- Inscreva-se no [SIG Cluster Lifecycle](https://groups.google.com/forum/#!forum/kubernetes-sig-cluster-lifecycle) do Google Group para ter acesso a documentos e agendas
+- Converse com a gente no [slack](http://slack.k8s.io/) do Kubernetes no canal [#cluster-api][#cluster-api slack]
+- Inscreva-se no [grupo do google]((https://groups.google.com/forum/#!forum/kubernetes-sig-cluster-lifecycle)) do SIG Cluster Lifecycle para ter acesso a documentos e agendas
 - Participe de nossas sessões do grupo de trabalho, onde compartilhamos as últimas notícias do projeto, demonstrações, perguntas e triagem de issues
     - Semanalmente às quartas-feiras @ 10:00 PT em [Zoom][zoomMeeting]
     - Reuniões anteriores: [ [notas][notas] | [gravações] [gravações] ]
