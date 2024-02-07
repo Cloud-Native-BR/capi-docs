@@ -91,24 +91,24 @@ As a result, existing popular deployment mechanisms that manage Kubernetes clust
 
 <!-- ANCHOR: Goals -->
 
-### Goals
+### Escopo do projeto
 
-- To manage the lifecycle (create, scale, upgrade, destroy) of Kubernetes-conformant clusters using a declarative API.
-- To work in different environments, both on-premises and in the cloud.
-- To define common operations, provide a default implementation, and provide the ability to swap out implementations for alternative ones.
-- To reuse and integrate existing ecosystem components rather than duplicating their functionality (e.g. node-problem-detector, cluster autoscaler, SIG-Multi-cluster).
-- To provide a transition path for Kubernetes lifecycle products to adopt Cluster API incrementally. Specifically, existing cluster lifecycle management tools should be able to adopt Cluster API in a staged manner, over the course of multiple releases, or even adopting a subset of Cluster API.
+- Gerenciar o ciclo de vida (criar, dimensionar, atualizar, destruir) de clusters compatíveis com Kubernetes usando uma API declarativa.
+- Trabalhar em diferentes ambientes, tanto on-premises quanto na nuvem.
+- Definir operações comuns, fornecer uma implementação padrão e fornecer a capacidade de trocar implementações por outras alternativas.
+- Reutilizar e integrar componentes do ecossistema existentes em vez de duplicar sua funcionalidade (por exemplo, detector de problemas de nó, autoscaler de cluster, SIG-Multi-cluster).
+- Fornecer um caminho de transição para que os produtos do ciclo de vida do Kubernetes adotem a API de cluster de forma incremental. Especificamente, as ferramentas de gerenciamento do ciclo de vida do cluster existentes devem ser capazes de adotar a API de cluster de maneira escalonada, ao longo de várias versões ou até mesmo adotar um subconjunto da API de cluster.
 
-### Non-goals
+### Fora do escopo do projeto
 
-- To add these APIs to Kubernetes core (kubernetes/kubernetes).
-   -  This API should live in a namespace outside the core and follow the best practices defined by api-reviewers, but is not subject to core-api constraints.
-- To manage the lifecycle of infrastructure unrelated to the running of Kubernetes-conformant clusters.
-- To force all Kubernetes lifecycle products (kOps, Kubespray, GKE, AKS, EKS, IKS etc.) to support or use these APIs.
-- To manage non-Cluster API provisioned Kubernetes-conformant clusters.
-- To manage a single cluster spanning multiple infrastructure providers.
-- To configure a machine at any time other than create or upgrade.
-- To duplicate functionality that exists or is coming to other tooling, e.g., updating kubelet configuration (c.f. dynamic kubelet configuration), or updating apiserver, controller-manager, scheduler configuration (c.f. component-config effort) after the cluster is deployed.
+- Para adicionar essas APIs ao núcleo do Kubernetes (kubernetes/kubernetes).
+   - Essa API deve existir em um namespace fora do core e seguir as práticas recomendadas definidas pelos revisores de api, mas não está sujeita a restrições de api principal.
+- Gerenciar o ciclo de vida da infraestrutura não relacionada à execução de clusters compatíveis com Kubernetes.
+- Forçar todos os produtos do ciclo de vida do Kubernetes (kOps, Kubespray, GKE, AKS, EKS, IKS etc.) a suportar ou usar essas APIs.
+- Para gerenciar clusters não provisionados em conformidade com Kubernetes provisionados pela API de cluster.
+- Gerenciar um único cluster abrangendo vários provedores de infraestrutura.
+- Para configurar uma máquina a qualquer momento que não seja criar ou atualizar.
+- Para duplicar a funcionalidade que existe ou está chegando a outras ferramentas, por exemplo, atualizando a configuração do kubelet (c.f. configuração dinâmica do kubelet), ou atualizando apiserver, controller-manager, configuração do agendador (c.f. component-config effort) após a implantação do cluster.
 
 <!-- ANCHOR_END: Goals -->
 
