@@ -1,8 +1,8 @@
 # Sumário
 
 [Introdução](./introduction.md)
-[Guia de Início Rápido](./user/quick-start.md)
-[Operação do Guia de Início Rápido](./user/quick-start-operator.md)
+[Início Rápido](./user/quick-start.md)
+[Início Rápido com o Operator](./user/quick-start-operator.md)
 [Conceitos](./user/concepts.md)
 [Personas](./user/personas.md)
 - [Tarefas](./tasks/index.md)
